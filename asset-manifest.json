@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/food-info/static/css/main.0994e4f5.css",
-    "main.js": "/food-info/static/js/main.2bc0f955.js",
+    "main.css": "/food-info/static/css/main.571b9759.css",
+    "main.js": "/food-info/static/js/main.7eea42ba.js",
     "static/media/european-main-1.png": "/food-info/static/media/european-main-1.693096bab39473b34a84.png",
     "static/media/asianmainimage.png": "/food-info/static/media/asianmainimage.1fc31c0063d702c1f72b.png",
     "static/media/american-cuisine-1.png": "/food-info/static/media/american-cuisine-1.8c26cd92ea8eef691a70.png",
@@ -61,11 +61,11 @@
     "static/media/momos-small.png": "/food-info/static/media/momos-small.5f1ab653215e2c6535c1.png",
     "index.html": "/food-info/index.html",
     "static/media/egg-logo.svg": "/food-info/static/media/egg-logo.ffe1e63781c140e4f8fe6f92aea13c27.svg",
-    "main.0994e4f5.css.map": "/food-info/static/css/main.0994e4f5.css.map",
-    "main.2bc0f955.js.map": "/food-info/static/js/main.2bc0f955.js.map"
+    "main.571b9759.css.map": "/food-info/static/css/main.571b9759.css.map",
+    "main.7eea42ba.js.map": "/food-info/static/js/main.7eea42ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.0994e4f5.css",
-    "static/js/main.2bc0f955.js"
+    "static/css/main.571b9759.css",
+    "static/js/main.7eea42ba.js"
   ]
 }
