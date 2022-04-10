@@ -37,8 +37,9 @@ const App = () => {
     <div className="App">
       <Router>
         <Navbar />
+        <main id="main">
         <Routes>
-          <Route path="/" element={<Home />}/>
+          <Route path="/*" element={<Home />}/>
             <Route path="/seemoreitalianpasta" 
           element={<ItalianPastaInfo />} />
             <Route path="/thesandwichinfo" 
@@ -94,6 +95,7 @@ const App = () => {
             <Route path="/asianpage/seemorenepalmomos" 
           element={<SeeMoreNepalMomos />} />
         </Routes>
+        </main>
         <Footer />
       </Router>
     </div>

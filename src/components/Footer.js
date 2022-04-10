@@ -4,7 +4,7 @@ import MainLogo from '../svgfiles/egg-logo.svg'
 export const Footer = () => {
   return (
     <footer className="container-fluid text-white 
-    py-2 mt-3 d-flex  justify-content-center align-items-center flex-column 
+    py-2 mt-3 d-flex  justify-content-center align-items-center  flex-column
     bg-dark text-center gap-3">
         <div className="d-flex align-items-end">
           <img src={MainLogo} style={{width: '40px'}} alt="logo"/>
