@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+nav {
+  -webkit-box-shadow: 0 4px 2px -2px gray;
+          box-shadow: 0 4px 2px -2px gray;
+}
+
+a.active {
+  text-decoration: none;
+  color: #f0ad4e;
+}
+
+nav .navbar-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  gap: 5px;
+}
+
+ul a {
+  color: whitesmoke;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+ul a:hover {
+  color: #f0ad4e;
+}
+
+.carousel-item img {
+  -webkit-filter: brightness(90%);
+          filter: brightness(90%);
+}
+
+#home-card-border {
+  -webkit-box-shadow: 0px 0px 10px #b9b9b9;
+          box-shadow: 0px 0px 10px #b9b9b9;
+}
+
+#carouselExampleCaptions {
+  -webkit-box-shadow: 0px 0px 10px #5e5e5e;
+          box-shadow: 0px 0px 10px #5e5e5e;
+}
+
+#card-info-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 30px;
+}
+
+@media (max-width: 984px) {
+  #card-info-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+img {
+  -webkit-filter: brightness(88%);
+          filter: brightness(88%);
+}
+
+.card {
+  -webkit-box-shadow: 0px 0px 10px #c4c4c4;
+          box-shadow: 0px 0px 10px #c4c4c4;
+  padding: 1rem;
+  border-radius: 7px;
+}
+
+.card img {
+  border-radius: 7px;
+}
+/*# sourceMappingURL=index.css.map */
