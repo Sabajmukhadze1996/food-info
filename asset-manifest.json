@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/food-info/static/css/main.571b9759.css",
-    "main.js": "/food-info/static/js/main.7eea42ba.js",
+    "main.js": "/food-info/static/js/main.365dee28.js",
     "static/media/european-main-1.png": "/food-info/static/media/european-main-1.693096bab39473b34a84.png",
     "static/media/asianmainimage.png": "/food-info/static/media/asianmainimage.1fc31c0063d702c1f72b.png",
     "static/media/american-cuisine-1.png": "/food-info/static/media/american-cuisine-1.8c26cd92ea8eef691a70.png",
@@ -62,10 +62,10 @@
     "index.html": "/food-info/index.html",
     "static/media/egg-logo.svg": "/food-info/static/media/egg-logo.ffe1e63781c140e4f8fe6f92aea13c27.svg",
     "main.571b9759.css.map": "/food-info/static/css/main.571b9759.css.map",
-    "main.7eea42ba.js.map": "/food-info/static/js/main.7eea42ba.js.map"
+    "main.365dee28.js.map": "/food-info/static/js/main.365dee28.js.map"
   },
   "entrypoints": [
     "static/css/main.571b9759.css",
-    "static/js/main.7eea42ba.js"
+    "static/js/main.365dee28.js"
   ]
 }
