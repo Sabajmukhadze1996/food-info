@@ -1,5 +1,6 @@
 import React from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { useEffect, useState } from 'react';
 import { Home } from './components/Home'; //home component
 import{ Navbar} from './components/Navbar'; //home component
 import { Footer } from './components/Footer'; //home component
@@ -30,6 +31,9 @@ import { SeeMoreSingaporeanCrab } from './seemoreasianfoods/SeeMoreSingaporeanCr
 import { SeeMoreKoreanKimchi } from './seemoreasianfoods/SeeMoreKoreanKimchi';
 import { SeeMoreThailandSom } from './seemoreasianfoods/SeeMoreThailandSom';
 import { SeeMoreNepalMomos } from './seemoreasianfoods/SeeMoreNepalMomos';
+
+
+
 
 const App = () => {
   
