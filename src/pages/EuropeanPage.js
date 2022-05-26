@@ -15,7 +15,7 @@ export const EuropeanPage = () => {
   return (
     <>
     <div className="container-fluid  py-3">
-          <h1 className="text-center py-3"><i>European Cuisine</i></h1>
+          <h1 className="text-center py-3"><i id="european-title">European Cuisine</i></h1>
          <img id="europeanmain" className="img-fluid w-100 py-2" src={europeanmainimage}
           alt="european-cousine"/>
       

@@ -22,7 +22,7 @@ export const AmericanPage = () => {
     return (
     <>
       <div className="container-fluid py-3">
-         <h1 className="text-center py-3 "><i>American Cuisine</i></h1>
+         <h1 className="text-center py-3 "><i id="american-title">American Cuisine</i></h1>
          <img id="american-main" className="img-fluid py-2" src={americanimage1} 
          alt="american-cuisine"/>
      

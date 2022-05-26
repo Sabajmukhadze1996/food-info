@@ -12,11 +12,13 @@ import spanishpaella from '../europeanfoodimages/spanish-paella-1.png'
 import guabao from '../asianfoodimages/gua-bao-1.png'
 import sushi from '../asianfoodimages/sushi-1.png'
 
+
 export const Home = () => {
   const navigate = useNavigate()
+  
   return (
     <>
-    <h1 className="text-center py-3"><i>Home</i></h1>
+    <h1 className="text-center py-3"><i id="home-title">Home</i></h1>
     <div className="container-fluid d-flex justify-content-center py-3">
      <div id="carouselExampleCaptions" className="carousel slide w-100" data-bs-ride="carousel">
   <div className="carousel-indicators">

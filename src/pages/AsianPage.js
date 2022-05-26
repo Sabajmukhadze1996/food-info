@@ -15,7 +15,7 @@ export const AsianPage = () => {
   return (
     <>
     <div className="container-fluid  py-3">
-          <h1 className="text-center py-3"><i>Asian Cuisine</i></h1>
+          <h1 className="text-center py-3"><i id="asian-title">Asian Cuisine</i></h1>
          <img id="asianmain" className="img-fluid w-100 py-2" src={asianmainimage}
           alt="european-cousine"/>
       
