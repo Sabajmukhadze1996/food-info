@@ -21,9 +21,9 @@ export const AmericanPage = () => {
 
     return (
     <>
-      <div className="container-fluid py-3">
+      <div className="container-fluid px-0 py-3">
          <h1 className="text-center py-3 "><i id="american-title">American Cuisine</i></h1>
-         <img id="american-main" className="img-fluid py-2" src={americanimage1} 
+         <img id="american-main" className="img-fluid py-2 px-0" src={americanimage1} 
          alt="american-cuisine"/>
      
          <h1 className="py-3 text-center"><i>Famous List</i></h1>

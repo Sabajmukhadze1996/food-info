@@ -33,11 +33,8 @@ import { SeeMoreThailandSom } from './seemoreasianfoods/SeeMoreThailandSom';
 import { SeeMoreNepalMomos } from './seemoreasianfoods/SeeMoreNepalMomos';
 
 
-
-
-
 const App = () => {
-  
+ 
   return (
     <div className="App">
       <Router>
@@ -45,60 +42,33 @@ const App = () => {
         <main id="main">
         <Routes>
           <Route path="/*" element={<Home />}/>
-            <Route path="/seemoreitalianpasta" 
-          element={<ItalianPastaInfo />} />
-            <Route path="/thesandwichinfo" 
-          element={<TheSandwichHutInfo />} />
-            <Route path="/thechickenmakhani" 
-          element={<ChickenMakhaniInfo />} />
-            <Route path="/frenchescargot" 
-          element={<FrenchEscargot />} />
-            <Route path="/italianpizzainfo" 
-          element={<ItalianPizzaInfo />} />
-            <Route path="/spanishpaellainfo" 
-          element={<SpanishPaellaInfo />} />
-            <Route path="/chineseguabaoinfo" 
-          element={<ChineseGuaBaoInfo />} />
-            <Route path="/japanesesushiinfo" 
-          element={<JapaneseSushiInfo />} />
-            <Route path="/americanpage" 
-          element={<AmericanPage />} />
-            <Route path="/europeanpage" 
-          element={<EuropeanPage />} />
-            <Route path="/europeanpage/seemoregermanwurst" 
-          element={<SeeMoreGermanWurst />}/>
-            <Route path="/europeanpage/seemorespanishtortilla" 
-          element={<SeeMoreSpanishTortilla />}/>
-            <Route path="/europeanpage/seemoreitalianpizza" 
-          element={<SeeMoreItalianPizza />}/>
-            <Route path="/europeanpage/seemoreswitzerlandfondue" 
-          element={<SeeMoreSwitzerlandFondue />}/>
-            <Route path="/europeanpage/seemoregreecegyros" 
-          element={<SeeMoreGreeceGyros />}/>
-            <Route path="/europeanpage/seemoreswedishmeat" 
-          element={<SeeMoreSwedishMeat />}/>
-            <Route path="/europeanpage/seemorebelgianwaffles" 
-          element={<SeeMoreBelgianWaffles />} />
-            <Route path="/europeanpage/seemorefrenchnicoise" 
-          element={<SeeMoreFrenchNicoise />} />
-            <Route path="/asianpage" 
-          element={<AsianPage />} />
-            <Route path="/asianpage/seemoreasiansushi" 
-          element={<SeeMoreAsianSushi />} />
-            <Route path="/asianpage/seemoreasianpanipuri" 
-          element={<SeeMoreAsianPanipuri />} />
-            <Route path="/asianpage/seemorechinesekungpao" 
-          element={<SeeMoreChineseKungpao />} />
-            <Route path="/asianpage/seemoreindonesiansatay" 
-          element={<SeeMoreIndonesianSatay />} />
-            <Route path="/asianpage/seemoresingaporeancrab" 
-          element={<SeeMoreSingaporeanCrab />} />
-            <Route path="/asianpage/seemorekoreankimchi" 
-          element={<SeeMoreKoreanKimchi />} />
-            <Route path="/asianpage/seemorethailandsom" 
-          element={<SeeMoreThailandSom />} />
-            <Route path="/asianpage/seemorenepalmomos" 
-          element={<SeeMoreNepalMomos />} />
+            <Route path="/seemoreitalianpasta" element={<ItalianPastaInfo />} />
+             <Route path="/thesandwichinfo" element={<TheSandwichHutInfo />} />
+            <Route path="/thechickenmakhani" element={<ChickenMakhaniInfo />} />
+             <Route path="/frenchescargot" element={<FrenchEscargot />} />
+            <Route path="/italianpizzainfo" element={<ItalianPizzaInfo />} />
+             <Route path="/spanishpaellainfo" element={<SpanishPaellaInfo />} />
+            <Route path="/chineseguabaoinfo" element={<ChineseGuaBaoInfo />} />
+             <Route path="/japanesesushiinfo" element={<JapaneseSushiInfo />} />
+             <Route path="/americanpage" element={<AmericanPage />} />
+            <Route path="/europeanpage" element={<EuropeanPage />} />
+             <Route path="/europeanpage/seemoregermanwurst" element={<SeeMoreGermanWurst />}/>
+            <Route path="/europeanpage/seemorespanishtortilla" element={<SeeMoreSpanishTortilla />}/>
+             <Route path="/europeanpage/seemoreitalianpizza" element={<SeeMoreItalianPizza />}/>
+            <Route path="/europeanpage/seemoreswitzerlandfondue" element={<SeeMoreSwitzerlandFondue />}/>
+             <Route path="/europeanpage/seemoregreecegyros"  element={<SeeMoreGreeceGyros />}/>
+            <Route path="/europeanpage/seemoreswedishmeat" element={<SeeMoreSwedishMeat />}/>
+             <Route path="/europeanpage/seemorebelgianwaffles" element={<SeeMoreBelgianWaffles />} />
+            <Route path="/europeanpage/seemorefrenchnicoise" element={<SeeMoreFrenchNicoise />} />
+            <Route path="/asianpage" element={<AsianPage />} />
+             <Route path="/asianpage/seemoreasiansushi" element={<SeeMoreAsianSushi />} />
+            <Route path="/asianpage/seemoreasianpanipuri" element={<SeeMoreAsianPanipuri />} />
+             <Route path="/asianpage/seemorechinesekungpao" element={<SeeMoreChineseKungpao />} />
+            <Route path="/asianpage/seemoreindonesiansatay" element={<SeeMoreIndonesianSatay />} />
+             <Route path="/asianpage/seemoresingaporeancrab" element={<SeeMoreSingaporeanCrab />} />
+            <Route path="/asianpage/seemorekoreankimchi" element={<SeeMoreKoreanKimchi />} />
+             <Route path="/asianpage/seemorethailandsom" element={<SeeMoreThailandSom />} />
+            <Route path="/asianpage/seemorenepalmomos" element={<SeeMoreNepalMomos />} />
         </Routes>
         </main>
         <Footer />
@@ -107,4 +77,7 @@ const App = () => {
   )
 }
 
+
 export default App;
+
+

@@ -5,9 +5,9 @@
           box-sizing: border-box;
 }
 
-body {
+body, .App {
   min-height: 100vh;
-  background-color: whitesmoke;
+  background-color: #e7e7e7;
   overflow-x: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -19,6 +19,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  overflow-x: hidden !important;
 }
 
 #main {
@@ -33,6 +34,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-bottom: 100px;
 }
 
 a {
@@ -46,8 +48,7 @@ html, body {
 }
 
 nav {
-  -webkit-box-shadow: 0 4px 2px -2px gray;
-          box-shadow: 0 4px 2px -2px gray;
+  background-color: #202020;
 }
 
 a.active {
@@ -67,12 +68,14 @@ nav .navbar-brand {
 
 ul a {
   color: whitesmoke;
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
 }
 
 ul a:hover {
   color: #f0ad4e;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .carousel-item img {
@@ -117,15 +120,14 @@ img {
 .card {
   -webkit-box-shadow: 0px 0px 10px #c4c4c4;
           box-shadow: 0px 0px 10px #c4c4c4;
-  padding: 1rem;
   border-radius: 7px;
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
 }
 
 .card:hover {
-  -webkit-transform: scale(1.02);
-          transform: scale(1.02);
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
 }
 
 .card img {
@@ -135,8 +137,8 @@ img {
 }
 
 .card img:hover {
-  -webkit-transform: scale(1.03);
-          transform: scale(1.03);
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
   opacity: 90%;
 }
 
@@ -211,5 +213,22 @@ nav * {
     -webkit-transform: translate(0px);
             transform: translate(0px);
   }
+}
+
+footer {
+  background-color: #202020;
+}
+
+.dark-mode-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+h1 {
+  font-size: 2.8rem !important;
 }
 /*# sourceMappingURL=index.css.map */

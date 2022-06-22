@@ -19,7 +19,7 @@ export const Home = () => {
   return (
     <>
     <h1 className="text-center py-3"><i id="home-title">Home</i></h1>
-    <div className="container-fluid d-flex justify-content-center py-3">
+    <div className="container-fluid d-flex justify-content-center py-3 px-0">
      <div id="carouselExampleCaptions" className="carousel slide w-100" data-bs-ride="carousel">
   <div className="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -61,7 +61,7 @@ export const Home = () => {
     </div>
 
 
-    <div className="row row-cols-1 row-cols-md-2 g-4 px-4 py-3 ">
+    <div className="row row-cols-1 row-cols-sm-2 g-4 py-3 ">
   <div className="col">
     <div className="card" id="home-card-border">
       <img src={italianpasta} className="card-img-top" alt="italianpasta" />
@@ -108,7 +108,7 @@ export const Home = () => {
 
 
 
-<div className="row row-cols-1 row-cols-md-2 g-4 px-4">
+<div className="row row-cols-1 row-cols-sm-2 g-4">
   <div className="col">
     <div className="card" id="home-card-border">
       <img src={italianpizza} className="card-img-top" alt="italianpasta" />

@@ -14,13 +14,13 @@ export const EuropeanPage = () => {
     const navigate = useNavigate();
   return (
     <>
-    <div className="container-fluid  py-3">
+    <div className="container-fluid px-0  py-3">
           <h1 className="text-center py-3"><i id="european-title">European Cuisine</i></h1>
          <img id="europeanmain" className="img-fluid w-100 py-2" src={europeanmainimage}
           alt="european-cousine"/>
       
       <h1 className="text-center py-3"><i>Types of Food</i></h1>
-      <div className="row row-cols-1 row-cols-md-2 g-4 px-4 py-3 ">
+      <div className="row row-cols-1 row-cols-sm-2 g-4 py-3 ">
   <div className="col">
     <div className="card" id="home-card-border">
       <img src={germanfood} className="card-img-top" alt="italianpasta" />
