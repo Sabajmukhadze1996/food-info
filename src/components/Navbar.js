@@ -8,7 +8,7 @@ export const Navbar = () => {
  
   return(
    <>
-    <nav className="navbar navbar-expand-md sticky-top navbar-dark  py-2">
+    <nav className="navbar navbar-expand-md fixed-top navbar-dark py-1">
   <div className="container-fluid">
     <div className="navbar-brand ">
     <img src={MainLogo} alt="logo" style={{width: '65px'}}/>
