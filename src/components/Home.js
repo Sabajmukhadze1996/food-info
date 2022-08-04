@@ -68,7 +68,7 @@ export const Home = () => {
       <div className="card-body">
         <h5 className="card-title">Classic Italian Spaghetti</h5>
         <p className="card-text">Fresh or dry spaghetti is cooked in a large pot of salted, boiling water and then drained in a colander.</p>
-       <button onClick={() => navigate('seemoreitalianpasta')} className="btn btn-dark">See more...</button>
+       <button onClick={() => {navigate('seemoreitalianpasta'); window.scrollTo(0, 0)}} className="btn btn-dark">See more...</button>
       </div>
     </div>
   </div>
@@ -78,7 +78,7 @@ export const Home = () => {
       <div className="card-body">
         <h5 className="card-title">The American Burger</h5>
         <p className="card-text">A sandwich is a food typically consisting of vegetables, sliced cheese or meat.</p>
-        <button onClick={() => navigate('thesandwichinfo')} className="btn btn-dark">See more...</button>
+        <button onClick={() => {navigate('thesandwichinfo'); window.scrollTo(0, 0)}} className="btn btn-dark">See more...</button>
       </div>
     </div>
   </div>
@@ -88,7 +88,7 @@ export const Home = () => {
       <div className="card-body">
         <h5 className="card-title">Chicken Makhani</h5>
         <p className="card-text"> Made from chicken with a spiced tomato and butter (makhan) sauce.</p>
-        <button onClick={() => navigate('thechickenmakhani')} className="btn btn-dark">See more...</button>
+        <button onClick={() => {navigate('thechickenmakhani'); window.scrollTo(0, 0)}} className="btn btn-dark">See more...</button>
       </div>
     </div>
   </div>
@@ -98,7 +98,7 @@ export const Home = () => {
       <div className="card-body">
         <h5 className="card-title">French Escargot</h5>
         <p className="card-text">A beloved French delicacy <br /> made from cooked snails.</p>
-        <button onClick={() => navigate('frenchescargot')} className="btn btn-dark">See more...</button>
+        <button onClick={() => {navigate('frenchescargot'); window.scrollTo(0, 0)}} className="btn btn-dark">See more...</button>
       </div>
     </div>
   </div>
@@ -115,7 +115,7 @@ export const Home = () => {
       <div className="card-body">
         <h5 className="card-title">Delicious Italian Pizza</h5>
         <p className="card-text">A small pizza is sometimes called <br /> a pizzetta.</p>
-       <button onClick={() => navigate('italianpizzainfo')} className="btn btn-dark">See more...</button>
+       <button onClick={() => {navigate('italianpizzainfo'); window.scrollTo(0, 0)}} className="btn btn-dark">See more...</button>
       </div>
     </div>
   </div>
@@ -125,7 +125,7 @@ export const Home = () => {
       <div className="card-body">
         <h5 className="card-title">Spanish Seafood Paella</h5>
         <p className="card-text">Paella valenciana is the traditional paella of the Valencia region.</p>
-        <button onClick={() => navigate('spanishpaellainfo')} className="btn btn-dark">See more...</button>
+        <button onClick={() => {navigate('spanishpaellainfo'); window.scrollTo(0, 0)}} className="btn btn-dark">See more...</button>
       </div>
     </div>
   </div>
@@ -135,7 +135,7 @@ export const Home = () => {
       <div className="card-body">
         <h5 className="card-title">Chinese GuaBao</h5>
         <p className="card-text">It consists of a slice of stewed meat and condiments sandwiched.</p>
-        <button onClick={() => navigate('chineseguabaoinfo')} className="btn btn-dark">See more...</button>
+        <button onClick={() => {navigate('chineseguabaoinfo'); window.scrollTo(0, 0)}} className="btn btn-dark">See more...</button>
       </div>
     </div>
   </div>
@@ -145,7 +145,7 @@ export const Home = () => {
       <div className="card-body">
         <h5 className="card-title">Japanese Sushi</h5>
         <p className="card-text">Sushi is traditionally made with medium-grain white <br /> rice.</p>
-        <button onClick={() => navigate('japanesesushiinfo')} className="btn btn-dark">See more...</button>
+        <button onClick={() => {navigate('japanesesushiinfo'); window.scrollTo(0, 0)}} className="btn btn-dark">See more...</button>
       </div>
     </div>
   </div>
